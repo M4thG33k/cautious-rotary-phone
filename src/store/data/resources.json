@@ -1,7 +1,25 @@
 {
   "resources": {
     "resWood": {
-      "name": "Wood"
+      "name": "Wood",
+      "collectionMethods": [
+        {
+          "name": "By Hand",
+          "yield": 1,
+          "time": 10
+        }
+      ]
+    },
+
+    "resStone": {
+      "name": "Stone",
+      "collectionMethods": [
+        {
+          "name": "By Hand",
+          "yield": 1,
+          "time": 15
+        }
+      ]
     }
   }
 }
